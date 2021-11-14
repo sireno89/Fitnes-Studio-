@@ -51,7 +51,7 @@
 
   <section id="welcome">
   <div class="container">
-    <div class="welcome text-center">
+    <div class="welcome text-center wow fadeInUp delay-1s">
       <h1>Welcome on Fitness Studio</h1>
       <p>Welcome to Fitness Studio, a global movement of millions of young people making positive change, online and off! The 11 facts you want are below, and the sources for the facts are at the very bottom of the page. After you learn something, Do Something! Find out how to take action here. </p>
       <button type="submit" class="btn home-btn">Subscribe</button>
@@ -64,20 +64,20 @@
   <section id="about">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 text-center">
+        <div class="col-md-6 text-center wow fadeInLeft delay-1s">
           <img src="images/fit3.jpeg" class="img-fluid">
         </div>
-        <div class="col-md-6 text-justify">
+        <div class="col-md-6 text-justify wow fadeInRight delay-1s">
           <h3>Knowledge, skills and hard work</h3>
           <p>Welcome to Fitness Studio, a global movement of millions of young people making positive change, online and off! The 11 facts you want are below, and the sources for the facts are at the very bottom of the page. After you learn something, Do Something! Find out how to take action here.</p>
           <p>Welcome to Fitness Studio, a global movement of millions of young people making positive change, online and off! The 11 facts you want are below, and the sources for the facts are at the very bottom of the page.</p>
         </div>
-        <div class="col-md-6 text-justify">
+        <div class="col-md-6 text-justify wow fadeInLeft delay-1s">
           <h3>Work hard in silence</h3>
           <p>Welcome to Fitness Studio, a global movement of millions of young people making positive change, online and off! The 11 facts you want are below, and the sources for the facts are at the very bottom of the page. After you learn something, Do Something! Find out how to take action here.</p>
           <p>Welcome to Fitness Studio, a global movement of millions of young people making positive change, online and off! The 11 facts you want are below, and the sources for the facts are at the very bottom of the page.</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 wow fadeInRight delay-1s">
           <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rsuO6K2RUtI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
@@ -89,20 +89,20 @@
   <!--Services-->
   <section id="services">
     <div class="container">
-      <div class="row">
+      <div class="row wow fadeInUp">
         <div class="col-md-4">
-          <img src="images/taekwondo.png">
-          <h4>Mixed martial arts</h4>
+          <img src="images/taekwondo.png" class="wow fadeInRight delay-1s">
+          <h4 class="wow fadeInRight delay-2s">Mixed martial arts</h4>
           <p>Welcome to Fitness Studio, a global movement of millions of young people making positive change, online and off! The 11 facts you want are below, and the sources for the facts are at the very bottom of the page. After you learn something, Do Something! Find out how to take action here.</p>
         </div>
         <div class="col-md-4">
-          <img src="images/exercise.png">
-          <h4>Gym</h4>
+          <img src="images/exercise.png" class="wow fadeInRight delay-1s">
+          <h4 class="wow fadeInRight delay-2s">Gym</h4>
           <p>Welcome to Fitness Studio, a global movement of millions of young people making positive change, online and off! The 11 facts you want are below, and the sources for the facts are at the very bottom of the page. After you learn something, Do Something! Find out how to take action here.</p>
         </div>
         <div class="col-md-4">
-          <img src="images/boxing.png">
-          <h4>Boxing</h4>
+          <img src="images/boxing.png" class="wow fadeInRight delay-1s">
+          <h4 class="wow fadeInRight delay-2s">Boxing</h4>
           <p>Welcome to Fitness Studio, a global movement of millions of young people making positive change, online and off! The 11 facts you want are below, and the sources for the facts are at the very bottom of the page. After you learn something, Do Something! Find out how to take action here.</p>
         </div>
       </div>
@@ -114,10 +114,10 @@
   <section id="features">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 wow fadeInLeft">
           <img src="images/dance2.png" class="img-fluid">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 wow fadeInDown">
           <div class="feature-box">
             <div class="feature-left">
               <i class="fa fa-trophy"></i>
@@ -160,19 +160,19 @@
       <p class="text-center">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ullam.</p>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 wow fadeInLeft delay-1s">
           <p class="review">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ullam.<br><i class="fa fa-twitter"></i><span>@username</span></p>
             <img src="images/user.jpeg">
         </div>
 
-        <div class="col-md-4 middle">
+        <div class="col-md-4 middle wow fadeInUp">
           <p class="review">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ullam.<br><i class="fa fa-twitter"></i><span>@username</span></p>
             <img src="images/user5.jpeg">
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 wow fadeInRight delay-1s">
           <p class="review">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ullam.<br><i class="fa fa-twitter"></i><span>@username</span></p>
             <img src="images/user3.jpeg">
@@ -185,7 +185,7 @@
 
   <section id="subscribe">
     <div class="container">
-      <div class="subscribe text-center">
+      <div class="subscribe text-center wow fadeInUp delay-1s">
         <h3>Join For Free Trial Now</h3>
         <p>Subscribe our newsletter and get 30 days free trial</p>
         <div class="input-group">
@@ -244,7 +244,10 @@
   </script>
 
   <!--Animation-->
-  
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 
 </body>
 </html>
